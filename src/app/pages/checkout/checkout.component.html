@@ -1,0 +1,121 @@
+<div class="cart-page-container">
+    <div class="cart-page-header">
+        <h5>Checkout Details</h5>
+    </div>
+    <div class="cart-page-content">
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Collapsible Group Item #1
+                  </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                        farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Collapsible Group Item #2
+                  </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                        farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Collapsible Group Item #3
+                  </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                        farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart-item-header cart-item-row">
+            <div class="cart-item-cell cart-item-product"><span>Product</span></div>
+            <div class="cart-item-cell cart-item-quantity"><span>Quantity</span></div>
+            <div class="cart-item-cell cart-item-total"><span>Total</span></div>
+            <div class="cart-item-cell cart-item-action"><span>Action</span></div>
+        </div>
+        <button class="btn">Button</button>
+        <!-- <div class="cart-item-row" *ngFor="let cart of cartList;let i = index">
+            <div class="cart-item-cell cart-item-product">
+                <div class="cart-item-thumbnail" [ngStyle]="{'background-image': 'url(' + cart.product.ImageUrl + ')'}">
+                </div>
+                <div class="cart-item-info">
+                    <div class="cart-item-brand">{{cart.product.brand}}</div>
+                    <div class="cart-item-title">{{cart.product.ProductItemName}}</div>
+                </div>
+            </div>
+            <div class="cart-item-cell cart-item-quantity">
+                <quantity-control [quantity]="cart.Quantity" (onChange)="changeQuantity(cart,$event)"></quantity-control>
+            </div>
+            <div class="cart-item-cell cart-item-total">
+                <div class="item-price">
+                    {{cart.quantity*cart.product.Price | currency :'INR':true }}
+                </div>
+            </div>
+            <div class="cart-item-cell cart-item-action">
+                <div class="item-remove" (click)="removeFromCart(i)">X</div>
+            </div>
+        </div> 
+        <div class="row cart-total">
+            <div class="col-lg-offset-6">
+                <div class="cart-total-row row">
+                    <div class="col-md-6 cart-total-label">
+                        Cart overview
+                    </div>
+                    <div class="col-md-6 cart-total-value"></div>
+                </div>
+                <div class="cart-total-row row">
+                    <div class="col-md-6 cart-total-label">
+                        subtotal
+                    </div>
+                    <div class="col-md-6 cart-total-value">
+                        {{totalPrice | currency :'INR':true}}
+                    </div>
+                </div>
+                <div class="cart-total-row row">
+                    <div class="col-md-6 cart-total-label">
+                        total
+                    </div>
+                    <div class="col-md-6 cart-total-value cart-total-price">
+                        {{totalPrice | currency :'INR':true}}
+                    </div>
+                </div>
+            </div>
+        </div>
+      -->
+        <div class="cart-buttons">
+            <div class="continue-shopping"><a routerLink="/">continue shopping</a></div>
+            <a class="checkout-button button button-primary button-large" routerLink="/checkout">Checkout ({{10 | currency :'INR':true}})</a>
+        </div>
+    </div>
+    <!-- <div class="cart-page-content" *ngIf="cartList.length == 0">
+        <h4>Your cart is empty.</h4>
+        <a routerLink="/product-list">Go shopping</a>
+    </div> -->
+</div>
